@@ -41,7 +41,7 @@ function let_there_be_light(dayPrint) {
         candle.setAttribute("height", "60");
         candle.setAttribute("alt", "candle");
 
-        // for evety day passed we'll light a candle
+        // for every day passed we'll light a candle
         document.getElementById("drawCandlesHere").appendChild(candle);
     }
 }
