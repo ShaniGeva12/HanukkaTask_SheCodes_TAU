@@ -1,0 +1,19 @@
+
+def calculate_total_num_of_candles():
+    total = 0
+    for i in range(1, 9):
+        total += (i + 1)
+    print(f"The total amount of candles is: {total}\n")
+
+
+def candles_per_day():
+    for i in range(1, 9):
+        print(f"Day number {i} of Hanukkah:")
+        print("!", "|" * i, "\n")
+
+
+if __name__ == "__main__":
+    calculate_total_num_of_candles()
+    candles_per_day()
+    print("Happy Hanukkah! \U0001f369 \U0001f54e \U0001F970")
+
